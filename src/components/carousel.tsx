@@ -18,7 +18,7 @@ const images = [
 
 export function BigImageCarousel() {
   return (
-    <Carousel className="container pb-8 px-0 w-full mx-auto">
+    <Carousel className="container pb-2 px-0 w-full mx-auto">
       <CarouselContent>
         {images.map((image, index) => (
           <CarouselItem key={index}>
